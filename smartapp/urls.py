@@ -1,0 +1,46 @@
+from django.urls import path
+from .views import *
+
+urlpatterns = [
+
+    path('index/', index),
+    path('indexcontact/',indexcontact),
+    path('aboutus/', aboutus),
+    path('contactus/', contactwrite),
+    path('testimonials/', displaytestimony),
+    path('storereg/', centerregistration),
+    path('storelogin/', centerlogin),
+    path('storeprofile/', servicecenterprofile),
+    path('editstore/<int:id>', centeredit),
+    path('deletestore/<int:id>', centerdelete),
+    path('mobiletype/', mobiletype),
+    path('addmobiles/', addmobiles),
+    path('addparts/', addparts),
+    path('partsdisplay/', partsdisplay),
+    path('androidparts/', androidparts),
+    path('mobiledisplay/',mobiledisplay),
+    path('androiddisplay/', androiddisplay),
+    path('userreg/', userregistration),
+    path('userlogin/', userlogin),
+    path('userprofile/', userprofile),
+    path('edituser/<int:id>', useredit),
+    path('deleteuser/<int:id>', userdelete),
+    path('bookrepair/', repairregister),
+    path('viewnewbookings/', newbookings),
+    path('deletenewbookings/<int:id>', deletebooking),
+    path('repairstatus/<int:id>', repairinfo),
+    path('repairinfodisplay/', repairinfodisplay),
+    path('repairinfouser/', repairinfouser),
+    path('servicecomplete/<int:id>', servicecomplete),
+    path('serviceddevices/', servicecompletedisplay),
+    path('buyparts/<int:id>', buyparts),
+    path('recycle/', recycle),
+    path('writereview/<int:id>', writereview),
+    path('viewreview/<int:id>', viewreview),
+    path('raisecomplaints/<int:id>', writecomplaint),
+    path('viewcomplaints/<int:id>', viewcomplaint),
+    path('complaintreview/<int:id>', complaintreview),
+    path('offlinestoresdisplay/', storesoffline),
+
+
+]

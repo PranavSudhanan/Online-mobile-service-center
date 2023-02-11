@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <style>
+        .card:hover {
+          transform: scale(1.2);
+        }
+
+        #c:hover{
+            color: #0C73EB;
+        }
+
+    </style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/ed8bb72b2a.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,0.8996848739495799) 0%, rgba(0,0,0,0.9024859943977591) 35%, rgba(1,16,22,0.8996848739495799) 100%);">
+        <div class="container-fluid" style="margin-left: 150px;">
+            <div><img src="https://assets.cdn.ifixit.com/static/images/footer/fist-circle-white.png"></div>
+            <b><a class="navbar-brand" style="font-family: Audiowide, sans-serif" href="http://127.0.0.1:8000/webapp/index/"><i>[R] Smart</i></a></b>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search for products, brands and more" aria-label="Search" style="width: 500px;">
+                <!-- <button class="btn btn-outline-light" type="submit">Search</button> -->
+            </form>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown me-5 ms-5">
+                    <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                       data-bs-toggle="dropdown" aria-expanded="false"><b><i>Login</i></b></a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <center>
+<!--                            <li><a class="dropdown-item" href="http://127.0.0.1:8000/webapp/adminlogin/">Admin Login</a></li>-->
+                        <li><a class="dropdown-item" href="http://127.0.0.1:8000/webapp/storelogin/">Store Login</a></li>
+                        <li><a class="dropdown-item" href="http://127.0.0.1:8000/webapp/userlogin/">User Login</a></li></center>
+                    </ul>
+                    </li>
+                </ul>
+                <b><a class="navbar-brand" style="font-family: Audiowide, sans-serif" href="http://127.0.0.1:8000/webapp/index/"><i>Solution for all your device needs</i></a></b>
+            </div>
+        </div>
+    </nav>
+
+<body background="https://pixabay.com/get/gddfda74527197761653e84cd510f66144f15d174b386da997ab0b1956ba501c44243e93173f76600910ec952f1fc5178fe5d79fceeeb1075b4c511b16938e8557ad0fad2870bb0a51152e4266fbc61b8_1920.jpg">
+
+<div class="container-fluid" align="center" style="background: url(https://img.freepik.com/free-vector/white-abstract-background-design_23-2148825582.jpg?w=996&t=st=1676043832~exp=1676044432~hmac=1f092fa5daa7a67c07011c442ab649d18e55c84137156cd336d5db4742f34a6b); color: rgb(2,0,36); font-family: Audiowide, sans-serif">
+        <div class="row" style="height: 450px;">
+            <div class="col">
+                <h2 class="title" style="margin-top: 150px"><b><i>Welcome to [R]Smart</i></b></h2>
+                <p>Solution to all your device needs.</p><br>
+                <p>Your mobile broke? Don't have the time to visit a physical shop?</p>
+                <p>Well, Worry not. We here at [R]Smart are here for just that. We will get your device back to working & the best part is you don't have to leave your home or work place.</p>
+                <p>___The Future is Online___</p>
+            </div>
+        </div>
+</div><br>
+
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://cdn.pixabay.com/photo/2018/07/30/12/00/iphone-3572477_960_720.jpg" class="d-block w-100" alt="..." height="400px">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>All iphone models service with genuine apple parts</h5>
+        <p>We provide authentic apple parts which ensures all the features working as it should</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://cdn.pixabay.com/photo/2017/07/16/20/44/mobile-phone-2510529_960_720.jpg" class="d-block w-100" height="400px" alt="...">
+      <div class="carousel-caption d-none d-md-block" style="color:black; background:white;">
+        <h5>Quality service from trusted service centers</h5>
+        <p>All our partner service centers are 100% trustworthy with highly experienced staffs</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://cdn.pixabay.com/photo/2018/07/30/11/20/iphone-3572340_960_720.jpg" class="d-block w-100" height="400px" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Fastest Service Possible</h5>
+        <p>We ensure your devices will be repaired and returned to you by the earliest</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-10"><br>
+                <div class="card" style="border: none;"><br>
+                    <center><img
+                            src="https://img.freepik.com/free-photo/about-as-service-contact-information-concept_53876-138509.jpg?w=996&t=st=1675272672~exp=1675273272~hmac=9cc0b4495c75f3cbe054db8d7f1a6dd22e9b29131ee6c4303ac83af82b4d5032"
+                            class="card-img-top" style="height: 312px; width: 100%;"></center>
+                    <div align="center" class="card-body">
+                        <a href="http://127.0.0.1:8000/webapp/aboutus/" class="btn">About Us</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-10"><br>
+                <div class="card" style="border: none;"><br>
+                    <center><img
+                            src="https://img.freepik.com/free-photo/business-people-shaking-hands-finishing-up-meeting-deals-business-concept_1150-2981.jpg?w=996&t=st=1675273293~exp=1675273893~hmac=a02b9ece341b060d35f6d34f7bb18e8293179d8831996d7979db70c87a869d3a"
+                            class="card-img-top" style="height: 304px; width: 100%;"></center>
+                    <div align="center" class="card-body">
+                        <h6 class="card-title"></h6>
+                        <a href="http://127.0.0.1:8000/webapp/testimonials/" class="btn">Testimonials</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-10"><br>
+                <div class="card" style="border: none;"><br>
+                    <center><img
+                            src="https://img.freepik.com/free-photo/woman-working-call-center_23-2148094886.jpg?w=996&t=st=1675272702~exp=1675273302~hmac=effdc7e2363288bcb29e33f4e1e31e7ad08b2870562bd1773f1ffc4136f8cb75"
+                            class="card-img-top" style="height: 311px; width: 100%;"></center>
+                    <div align="center" class="card-body">
+                        <a href="http://127.0.0.1:8000/webapp/indexcontact/" class="btn">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+</body>
+    <div class="container-fluid text-white mt-5" style="background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,0.8996848739495799) 0%, rgba(0,0,0,0.9024859943977591) 35%, rgba(1,16,22,0.8996848739495799) 100%);">
+        <div class="row">
+            <div align="center" style="color: rgb(2,0,36);">-</div>
+            <div class="col-lg-2 col-md-4 col-sm-10"><br>
+                <h6>ABOUT</h6><br>
+                <p>Contact Us</p>
+                <p>About Us</p>
+                <p>Careers</p>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-10"><br>
+                <h6>HELP</h6><br>
+                <p>Payments</p>
+                <p>Shipping</p>
+                <p>FAQ</p>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-10"><br>
+                <h6>POLICY</h6><br>
+                <p>Terms of Use</p>
+                <p>Security</p>
+                <p>Privacy</p>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-10"><br>
+                <h6>SOCIAL</h6><br>
+                <p>Facebook</p>
+                <p>Twitter</p>
+                <p>YouTube</p>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-10 border-start border-dark"><br>
+                <h6>Mail Us:</h6><br>
+                <p>rsmartpvtltd@gmail.com</p><p>
+                    R Smart Private Limited,
+                    Hybrid Towers,
+                    Bengaluru, 560103,
+                    Karnataka, India</p>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-10"><br>
+                <h6>Registered Office Address:</h6><br>
+                <p>R Smart Private Limited,
+                    Hybrid Towers,
+                    Bengaluru, 560103,
+                    Karnataka, India
+                    CIN : U51109KA2012PTC066107
+                    Telephone: 044-45614700</p>
+            </div>
+        </div>
+        <p align="center">© RSmart — Licensed under Creative Commons</p>
+    </div>
+</html>
